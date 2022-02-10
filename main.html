@@ -3,24 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Moxie's Journeys</title>
-        <link href="css/main-style.css" rel="stylesheet" type="text/css">
+        <link href="css/main-style.css" rel="stylesheet">
     </head>
     <body>
         <!--Semantic HTML-->
         <header>
             <h1 class="title">Moxie's Journeys</h1>
-            <nav>
-                <ul>
-                    <li><a href="main.html">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                </ul>
-            </nav>
+            
+            <nav class="primary-nav">
+                <a id="link-main" href="main.html">Home</a>
+                <a id="link-me" href="">About me</a>
+                <a id="link1" href="">Link1</a>
+                <a id="link2" href="">Link2</a>
+            </nav>  
         </header>
-        <!--Blog Section-->
+
+        <!--Blogs Section-->
         <section class="blogs">
-            <article>
+            <article id="post-movie">
                 <h2>My Favourite Hayao Miyazaki's Movie</h2>
             <!--
                 <figure class="movie">
@@ -33,18 +33,24 @@
                     et magnis dis parturiet motes, nascetur ridiculus mus. </p>
                 <h3 class="blog-movie"><a href="blog-movie.html">Keep reading &gt;</a></h3>
             </article>   
-            <article>
+
+            <!--blog 2-->
+            <article id="post-blog2">
                 <h2>Blog 2</h2>
                 <p>Class aptent taciti sociosque ad litora torquent per conubia nostra, per inceptos
                     himenaeso.Sed fermentum ligula neque, non suscipit ipsum elementum non.</p>
                 <h3><a href="">Keep reading &gt;</a></h3>
             </article>
-            <article>
+
+            <!--blog 3-->
+            <article id="post-blog3">
                 <h2>Blog 3</h2>
                 <p>Aliquam a convalils nulla. Nam mollis mauris urna, et dapibus lacus aliquam vel.</p>
                 <h3><a href="">Keep Reading &gt;</a></h3>
             </article>         
         </section>
+
+        <!--aside section-->
         <aside>
             <!--About Me-->
             <section class="about">
