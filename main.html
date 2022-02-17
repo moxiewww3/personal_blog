@@ -7,7 +7,7 @@
     </head>
     <body>
         <!--Semantic HTML-->
-        <header>
+        <header id="header">
             <h1 class="title">Moxie's Journeys</h1>
             
             <nav class="primary-nav">
@@ -18,10 +18,19 @@
             </nav>  
         </header>
 
-        <!--Blogs Section-->
+        <!--Blog Section-->
         <section class="blogs">
-            <article id="post-movie">
-                <h2>My Favourite Hayao Miyazaki's Movie</h2>
+            
+            <article>
+                <header>
+                    <h2>
+                        <a href="blog-movie.html">My Favourite Hayao Miyazaki's Movie</a>
+                   </h2>
+                   <div class="date"> Posted on
+                       <div class="actual-date">Jan 01, 2022</div>
+                   </div>
+                </header>
+                 
             <!--
                 <figure class="movie">
                     <img class="temple" src="resources/img_temple.png" alt="The temple in Spirited Away."/>
@@ -31,22 +40,33 @@
                 <p>There are so many great movies that Hayao Miyazaki made. Lorem ipsum dolor site amet,
                     etiam sed mauris a uma ultrices ultrces etc nec leo. Cum sociis natoque penatibus
                     et magnis dis parturiet motes, nascetur ridiculus mus. </p>
-                <h3 class="blog-movie"><a href="blog-movie.html">Keep reading &gt;</a></h3>
+                <h4><a class="blog-link" href="blog-movie.html">Keep reading &gt;</a></h4>
             </article>   
 
             <!--blog 2-->
-            <article id="post-blog2">
-                <h2>Blog 2</h2>
+            <article>
+                <header>
+                    <h2><a herf="">Class Aptent Taciti Sociosque</a></h2>
+                    <div class="date"> Posted on
+                        <div class="actual-date">Dec 20, 2021</div>
+                    </div>
+                </header>
                 <p>Class aptent taciti sociosque ad litora torquent per conubia nostra, per inceptos
                     himenaeso.Sed fermentum ligula neque, non suscipit ipsum elementum non.</p>
-                <h3><a href="">Keep reading &gt;</a></h3>
+                <h4><a class="blog-link" href="">Keep reading &gt;</a></h4>
             </article>
 
             <!--blog 3-->
-            <article id="post-blog3">
-                <h2>Blog 3</h2>
+            <article>
+                <header>
+                    <h2><a>Aliquam A Convalils Nulla</a></h2>
+                    <div class="date"> Posted on
+                        <div class="actual-date">Nov 10, 2021</div>
+                    </div>
+                </header>
+                
                 <p>Aliquam a convalils nulla. Nam mollis mauris urna, et dapibus lacus aliquam vel.</p>
-                <h3><a href="">Keep Reading &gt;</a></h3>
+                <h4><a class="blog-link" href="">Keep Reading &gt;</a></h4>
             </article>         
         </section>
 
@@ -56,7 +76,7 @@
             <section class="about">
                 <h3>About Moxie's Journeys</h3>
                 <img class="img-me" src="resources/img-me.jpg" alt="Moxie's image"/>
-                <h3>Hi, I'm Moxie.</h3>
+                <div class="label">Hi, I'm Moxie.</div>
                 <p>I am a Front-end web developer. I love programing, watching movies and traveling.
                     This blog is all about my life.
                 </p> 
