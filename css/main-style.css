@@ -43,6 +43,7 @@ body {
     font-weight: 560;
     margin: 0 0 20px;
 }
+
 #header nav a {
     color: #242424;
     text-transform: uppercase;
@@ -62,20 +63,27 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0 50px 0;
-    min-height: 700px;
+    min-height: 650px;
     overflow: hidden;
-    border: 1px solid blue;
     text-align: justify;
 }
+/*
 article {
     border: 1px solid black;
 }
-
+*/
 article header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 0 0;  
+}
+
+.temple {
+    display: block;
+    width: 113%;
+    margin-left: -40px;
+    overflow: hidden;   
 }
 
 article h2 a{
@@ -96,7 +104,7 @@ article header .date {
     right: 0;
     text-align: right;
     width: 105px;
-    padding: 10px 5px 0 0;
+    padding: 15px 5px 0 0;
     font-family: oswald, verdana, sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -128,8 +136,7 @@ article p{
 
 aside {
     grid-area: as;
-    border: 1px solid purple;
-
+    margin-top: 20px;
 }
 
 aside section {
@@ -137,14 +144,8 @@ aside section {
     font-family: oswald, Verdana, sans-serif;
     line-height: 22px;
     font-size: 15px;
-    text-align: justify;    
+    margin-bottom: 30px;
 }
-/*
-.about {
-    font-family: oswald, Verdana, sans-serif;
-    line-height: 22px;
-    font-size: 15px;
-}*/
 
 .about h3 {
     text-align: center;
@@ -157,7 +158,7 @@ aside section {
     display: block;
     width: 330px;
     margin: 0 auto;
-    border-radius: 0%;
+    border-radius: 30%;
 }
 
 .about .label {
@@ -168,9 +169,43 @@ aside section {
     font-size: 16px;
     position: relative;
     padding: 10px 15px;
-    margin: -158px 0 0 -15px;
+    margin: -48px 0 0 -15px;
 }
+
+.links h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 20px;
+    line-height: 25px;
+}
+
+.other-links {
+   /* background-color: #e59866;*/
+    list-style-type: none;
+}
+
+.other-links li {
+    background-color: #e59866;
+    padding: 10px 15px;
+    margin: 10px 15px 0 -40px;
+}
+.other-links li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 footer {
     grid-area: ft;
-    border: 1px solid green;
+    font-size: 13px;
+    color: #8e8e8e;
+    text-align: left;
+}
+footer div {
+    border-top: 4px double red;
+    height: 5px;
+    margin: -15px 0 0 0;    
 }

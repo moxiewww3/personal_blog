@@ -5,21 +5,25 @@
         <link href="css/blog-style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1>Moxie's Journeys</h1>
+        <header id="main-header">
+            <h1 class="title">Moxie's Journeys</h1>
             <nav>
-                <ul>
-                    <li><a href="main.html">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Link</a></li>
-                    <li><a href="">Link</a></li>
-                </ul>
+                <a href="main.html">Home</a>
+                <a href="">About me</a>
+                <a href="">Link</a>
+                <a href="">Link</a>
             </nav>
         </header>
+
         <!--Blog Section-->
-        <section>
-            <h2>My Favourite Hayao Miyazaki's Movie</h2>
-            <h4>Posted on Jan 01,2022</h4>
+        <article>
+            <header id="blog-header">
+                <h2>My Favourite Hayao Miyazaki's Movie</h2>
+            
+                <div class="date">
+                    <div class="actual-date">Jan 01, 2022</div>
+                </div>
+            </header>
 
             <p>There are so many great movies that Hayao Miyazaki made. Lorem ipsum dolor site amet,
                 etiam sed mauris a uma ultrices ultrces etc nec leo. Cum sociis natoque penatibus
@@ -27,7 +31,6 @@
 
             <figure class="movie">
                 <img class="temple" src="resources/img_temple.png" alt="The temple in Spirited Away."/>
-                <figcaption>Temple in the Spirited Away movie.</figcaption>
             </figure>
 
             <p>Lorem ipsum dolor site amet,
@@ -41,10 +44,13 @@
                 etiam sed mauris a uma ultrices ultrces etc nec leo. Cum sociis natoque penatibus
                 et magnis dis parturiet motes, nascetur ridiculus mus. </p>
 
-            <h3><a href="">&lt; Previous Post</a></h3>
-            
-        </section>
+            <h4><a class="blog-link" href="">&lt; Previous Post</a></h4>      
+        </article>
+
         <!--Footer-->
-        <footer>copyright@moxie_wang 2022</footer>
+        <footer>
+            <div></div>
+            <p>copyright@moxie_wang 2022</p>
+        </footer>
     </body>
 </html>
