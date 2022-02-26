@@ -28,7 +28,7 @@ body {
     justify-self: center;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 20px 30px;
+    margin: 20px 30px 40px;
     padding: 5px 5px;
     border-top: 3px double red;
     border-bottom: 3px double red;
@@ -132,7 +132,6 @@ article p{
     text-align: center;
     text-decoration: none;
 }
-
 
 aside {
     grid-area: as;
